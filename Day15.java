@@ -173,9 +173,9 @@ class B implements Runnable {
     }
 }
 
-class Counter {
+final class Counter {
     int count = 0;
-    public synchronized void increment(){
+    final public synchronized void increment(){
         count++;
     }
 }
