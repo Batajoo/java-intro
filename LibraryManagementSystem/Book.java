@@ -7,7 +7,12 @@ public class Book {
     private int totalCopies;
 
     public Book(String id, String title, String author, String category, int availableCopies, int totalCopies){
-        
+        this.id = id;
+        this.title = title;
+        this.author = author;
+        this.category = category;
+        this.availableCopies = availableCopies;
+        this.totalCopies = totalCopies;
     }
 
     public String getId(){
